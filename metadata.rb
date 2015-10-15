@@ -1,10 +1,10 @@
 name             "monitor"
-maintainer       "Sean Porter Consulting"
-maintainer_email "portertech@gmail.com"
+maintainer       "Edgar Colque DevOps"
+maintainer_email "edgarcolque4425@gmail.com"
 license          "Apache 2.0"
 description      "A cookbook for monitoring services, using Sensu, a monitoring framework."
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.0.5"
+version          "0.0.6"
 
 %w[
   ubuntu
@@ -19,3 +19,5 @@ end
 depends "sensu"
 depends "sudo"
 depends "uchiwa"
+depends "opentsdb"
+depends "grafana2"
