@@ -26,3 +26,15 @@ include_recipe "sensu::api_service"
 include_recipe "uchiwa"
 
 include_recipe "monitor::default"
+
+include_recipe "monitor::checks"
+
+if node["monitor"]["use_opentsdb"]
+#  include_recipe "monitor::_opentsdb_handler"
+  include_recipe "opentsdb"
+  include_recipe "opentsdb::start"
+end
+
+if node["monitor"]["use_grafana"]
+  include_recipe "grafana2"
+end

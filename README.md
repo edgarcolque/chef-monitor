@@ -24,6 +24,9 @@ Cookbooks:
 - [Sensu](http://community.opscode.com/cookbooks/sensu)
 - [Uchiwa](http://community.opscode.com/cookbooks/uchiwa)
 - [sudo](http://community.opscode.com/cookbooks/sudo)
+- [opentsdb](https://github.com/looztra/opentsdb-cookbook)
+- [grafana2](http://community.opscode.com/cookbooks/grafana2)
+
 
 ## Attributes
 
