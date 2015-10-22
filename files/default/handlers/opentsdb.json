@@ -1,0 +1,12 @@
+{
+  "handlers": {
+    "opentsdb": {
+      "type": "tcp",
+      "socket": {
+        "host": "localhost",
+        "port": 4242
+      }
+    }
+  }
+}
+

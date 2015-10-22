@@ -1,4 +1,4 @@
-source 'https://supermarket.chef.io'
-
 metadata
-cookbook 'opentsdb', git: 'https://github.com/looztra/opentsdb-cookbook.git', branch: 'master'
+cookbook 'opentsdb', git: 'git@github.com:edgarcolque/opentsdb-cookbook.git', branch: 'master'
+
+source 'https://supermarket.chef.io'
